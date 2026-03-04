@@ -1,0 +1,15 @@
+public class src {
+    public static void main(String[] args) {
+        Retangulo objRet;
+        objRet = new Retangulo();
+        
+        objRet.setAltura(5.0);
+        objRet.setBase(8.0);
+        
+    System.out.println("Medida da área do retângulo: " + objRet.calcArea());
+          
+    System.out.println("Medida do perimetro do retângulo: " + objRet.calcPerimetro());
+    
+     }
+    
+}
